@@ -1,40 +1,63 @@
+import Feather from '@expo/vector-icons/Feather';
 import { Link, Stack } from 'expo-router';
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
-import { Text, View } from '@/components/Themed';
+import { colors } from '@/theme/colors';
+import { fonts } from '@/theme/typography';
 
 export default function NotFoundScreen() {
   return (
     <>
-      <Stack.Screen options={{ title: 'Oops!' }} />
+      <Stack.Screen options={{ title: 'Missing route' }} />
       <View style={styles.container}>
-        <Text style={styles.title}>This screen doesn't exist.</Text>
-
-        <Link href="/" style={styles.link}>
-          <Text style={styles.linkText}>Go to home screen!</Text>
-        </Link>
+        <View style={styles.card}>
+          <Feather color={colors.warning} name="alert-circle" size={28} />
+          <Text style={styles.title}>That screen is not part of CoinPilot.</Text>
+          <Text style={styles.description}>
+            The route is missing or was removed. Jump back to the market dashboard.
+          </Text>
+          <Link href="/market" style={styles.link}>
+            Open Market
+          </Link>
+        </View>
       </View>
     </>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: 20,
+  card: {
+    backgroundColor: colors.surface,
+    borderColor: colors.border,
+    borderRadius: 24,
+    borderWidth: 1,
+    gap: 12,
+    maxWidth: 360,
+    padding: 24,
+    width: '100%',
   },
-  title: {
-    fontSize: 20,
-    fontWeight: 'bold',
+  container: {
+    alignItems: 'center',
+    backgroundColor: colors.background,
+    flex: 1,
+    justifyContent: 'center',
+    padding: 24,
+  },
+  description: {
+    color: colors.textSecondary,
+    fontFamily: fonts.body,
+    fontSize: 14,
+    lineHeight: 21,
   },
   link: {
-    marginTop: 15,
-    paddingVertical: 15,
+    color: colors.accent,
+    fontFamily: fonts.bodyBold,
+    fontSize: 15,
+    marginTop: 8,
   },
-  linkText: {
-    fontSize: 14,
-    color: '#2e78b7',
+  title: {
+    color: colors.textPrimary,
+    fontFamily: fonts.heading,
+    fontSize: 20,
   },
 });
