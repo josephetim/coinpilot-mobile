@@ -174,15 +174,4 @@ npx expo prebuild -p android
 
 ![alt text](Screenshot_20260415-111004.jpg.jpeg) ![alt text](Screenshot_20260415-104200.jpg.jpeg) ![alt text](Screenshot_20260415-104144.jpg.jpeg) ![alt text](Screenshot_20260415-104140.jpg.jpeg) ![alt text](Screenshot_20260415-104210.jpg.jpeg) ![alt text](Screenshot_20260415-104147.jpg.jpeg) ![alt text](Screenshot_20260415-104134.jpg.jpeg) ![alt text](Screenshot_20260415-230628.jpg.jpeg) ![alt text](Screenshot_20260415-111036.jpg.jpeg) ![alt text](Screenshot_20260415-111038.jpg.jpeg) ![alt text](Screenshot_20260415-230610.jpg.jpeg) ![alt text](Screenshot_20260415-230645.jpg.jpeg) ![alt text](Screenshot_20260415-111041.jpg.jpeg) ![alt text](Screenshot_20260415-230618.jpg.jpeg) ![alt text](Screenshot_20260415-230705.jpg.jpeg) ![alt text](Screenshot_20260415-230658.jpg.jpeg) ![alt text](Screenshot_20260415-230539.jpg.jpeg) ![alt text](Screenshot_20260415-230534.jpg.jpeg) ![alt text](Screenshot_20260415-230522.jpg.jpeg) ![alt text](Screenshot_20260415-230602.jpg.jpeg) ![alt text](Screenshot_20260415-230713.jpg.jpeg) ![alt text](Screenshot_20260415-111009.jpg.jpeg) ![alt text](Screenshot_20260415-111016.jpg.jpeg) ![alt text](Screenshot_20260415-111049.jpg.jpeg)
 
-Capture these screens for delivery:
 
-- Market screen hero + overview cards
-- Trending assets strip
-- Market board with sort/filter chips
-- Search results state
-- Coin detail screen with 7D chart
-- Watchlist with populated rows
-- Empty watchlist state
-- Portfolio summary + add holding flow
-- Portfolio populated holdings state
-- Settings screen with API health and cache controls
