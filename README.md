@@ -139,7 +139,7 @@ npm run start
 
 ## APK Generation
 
-APK: https://expo.dev/accounts/druidivine/projects/coinpilot/builds/4b9d170b-e269-42a3-bf97-0d324c259673
+APK: https://drive.google.com/file/d/11dNMvAJ0KYk5QOJVjKFSS9YpL3vK4gog/view?usp=sharing
 
 Build an Android APK with EAS:
 
